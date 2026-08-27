@@ -197,6 +197,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -206,7 +207,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "c4a58665794442d0",
+  "active": "93a171581e4f8d3f",
   "lastOpenFiles": [
     "Untitled.canvas",
     "Welcome.md"
