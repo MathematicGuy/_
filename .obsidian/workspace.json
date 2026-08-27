@@ -6,7 +6,6 @@
       {
         "id": "4459bfe57caf86ff",
         "type": "tabs",
-        "dimension": 54.9496644295302,
         "children": [
           {
             "id": "93a171581e4f8d3f",
@@ -14,29 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "starship.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
-            }
-          }
-        ]
-      },
-      {
-        "id": "65b4a6d3c6040639",
-        "type": "tabs",
-        "dimension": 45.0503355704698,
-        "children": [
-          {
-            "id": "e3e05934d66f5c5e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "starship"
             }
           }
         ]
@@ -207,9 +189,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "93a171581e4f8d3f",
+  "active": "c4a58665794442d0",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "Welcome.md"
+    "ARCHIVES",
+    "starship.md",
+    "Untitled.canvas"
   ]
 }
