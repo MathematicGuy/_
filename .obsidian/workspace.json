@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "starship.md",
+                "file": "02_AREAS/SYSTEM_DESIGN/How To Write Useful Software Architecture Documentation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "starship"
+              "title": "How To Write Useful Software Architecture Documentation"
             }
           }
         ]
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7a5fb534219c75af",
@@ -189,10 +190,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "c4a58665794442d0",
+  "active": "93a171581e4f8d3f",
   "lastOpenFiles": [
-    "ARCHIVES",
     "starship.md",
+    "02_AREAS/SYSTEM_DESIGN/How To Write Useful Software Architecture Documentation.md",
+    "02_AREAS/SYSTEM_DESIGN",
+    "01_PROJECTS",
+    "02_AREAS",
+    "03_RESOURCES",
+    "ARCHIVES",
     "Untitled.canvas"
   ]
 }

@@ -1,0 +1,1 @@
+reference: https://scribe.com/library/software-architecture-documentation
