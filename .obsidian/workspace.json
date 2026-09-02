@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_AREAS/LANGUAGES/CHINESE/Chinese Explain in 5 Minutes.md",
+                "file": "02_AREAS/LANGUAGES/README - Focus on Aquisition.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chinese Explain in 5 Minutes"
+              "title": "README - Focus on Aquisition"
             }
           }
         ]
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7a5fb534219c75af",
@@ -192,9 +191,10 @@
   },
   "active": "93a171581e4f8d3f",
   "lastOpenFiles": [
+    "02_AREAS/LANGUAGES/CHINESE/Chinese Explain in 5 Minutes.md",
+    "02_AREAS/LANGUAGES/README - Focus on Aquisition.md",
     "Pasted image 20260902165033.png",
     "02_AREAS/AI-ENGINEER/MCP.md",
-    "02_AREAS/LANGUAGES/CHINESE/Chinese Explain in 5 Minutes.md",
     "02_AREAS/LANGUAGES/CHINESE",
     "02_AREAS/LANGUAGES",
     "02_AREAS/SYSTEM-DESIGN/How To Write Useful Software Architecture Documentation.md",
