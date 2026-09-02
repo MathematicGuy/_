@@ -11,4 +11,4 @@ Sentence give you context -> Build a Language learning corpus for Incremental Le
 + $ This called Acquisition and Incremental Learning -> Help revision word everyday and learn new word steadily.
 + ! Avoid learning new words Blindly to increase the number and look impressive.
 
-
+**Word Remembering Strategy** - Each word must have it own sentence -> if I forget the word, I could **reason the word from the sentence's context**

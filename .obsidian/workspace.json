@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "417a67a18b2b068c",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "72e8532e215fc176",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "7db5f24eeaa9296a",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02_AREAS/LANGUAGES/README - Focus on Acquisition than 'How many word' I learn today.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README - Focus on Acquisition than 'How many word' I learn today"
+              "title": "New tab"
             }
           }
         ]
@@ -191,11 +187,11 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "7db5f24eeaa9296a",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "02_AREAS/LANGUAGES/README - Focus on Acquisition than 'How many word' I learn today.md",
     "02_AREAS/LANGUAGES/CHINESE/Chinese Explain in 5 Minutes.md",
     "$home.md",
-    "02_AREAS/LANGUAGES/README - Focus on Acquisition than 'How many word' I learn today.md",
     "Pasted image 20260902165033.png",
     "02_AREAS/AI-ENGINEER/MCP.md",
     "02_AREAS/LANGUAGES/CHINESE",
