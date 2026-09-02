@@ -1,3 +1,5 @@
+**Understand -> Practice**
+
 Learn with a System - Immerse Yourself 
 Shadowing - Listen -> Repeat what you hear + Write the word/sentence
 Sentence give you context -> Build a Language learning corpus for Incremental Learning 
@@ -8,3 +10,5 @@ Sentence give you context -> Build a Language learning corpus for Incremental Le
 	
 + $ This called Acquisition and Incremental Learning -> Help revision word everyday and learn new word steadily.
 + ! Avoid learning new words Blindly to increase the number and look impressive.
+
+
