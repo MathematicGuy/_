@@ -4,7 +4,30 @@ MCP server contain
 + Template Prompt (already Context Engineer Prompt, Quality Prompt)
 e.g. Web Search MCP - it contain the web resource, well evaluated searching prompt for LLM, Tools to search on the internet.
 
-MCP's 2026-07-28 spec makes the entire protocol **stateless**, **deleting the initialize handshake and the Mcp-Session-Id header that pinned clients to one server.** That fixes round robin load balancing, removes the Redis instance holding your sessions, and lets a server scale to zero on Workers or Cloud Run. It also brings new Mcp-Method and Mcp-Name HTTP headers, ttlMs and cacheScope caching hints, elicitation rebuilt as Multi Round-Trip Requests, and Tasks graduating from experimental into an official extension.
+MCP's client and server become stateless, specifically the Session ID Protocol become stateless. 
+**Problem:**
++ **in 2025,** MCP have **sticky sessions and/or shared session stores** -> Request from 1 MCP Server stick to 1 MCP server.
++ **Issue for Load balancer,** so if Server/Instance A is disconnected because of Overload or DDOS, that session ID still get pointing to that Disconnected Server and not Server B.
+	Note: Server A,B,C have the same MCP server.
++ **Solution:** making the 
+```md
+Agent 
+│ 
+│ browser_id=B123 
+▼ 
+Stateless MCP 
+│ 
+▼ 
+Application 
+│ 
+└── browser B123
+```
+
+**Visualize** calling a MCP Server/Instance pinning the Server Session ID 
+![[Pasted image 20260904163339.png|762]] 
+[2026-07-28-release-candidate](https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/?utm_source=chatgpt.com)
+![[Pasted image 20260904163111.png|493]]
+
 
 ### Why MCP ?
 Note: **Tools ~ Function (e.g. API function, regular function) that your AI Model can call**

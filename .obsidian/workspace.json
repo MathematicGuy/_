@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0ede68f878a01893",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "b06681c90c8b50c4",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7a5fb534219c75af",
@@ -190,8 +191,11 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "b06681c90c8b50c4",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "images/Pasted image 20260904163339.png",
+    "images/Pasted image 20260904163250.png",
+    "images/Pasted image 20260904163111.png",
     "02_AREAS/AI-ENGINEER/Agentic Engineering Operating Level.md",
     "02_AREAS/AI-ENGINEER/MCP.md",
     "images/Pasted image 20260902165033.png",
@@ -207,8 +211,6 @@
     "Pasted image 20260903162037.png",
     "images/Pasted image 20260903162008.png",
     "images/Pasted image 20260903161916.png",
-    "Pasted image 20260903161822.png",
-    "images/Pasted image 20260903161754.png",
     "02_AREAS/HACKATHON/Giải Business Case - Đừng vội nghĩ Solution khi chưa hiểu Problem.md",
     "02_AREAS/HACKATHON",
     "$home.md",
