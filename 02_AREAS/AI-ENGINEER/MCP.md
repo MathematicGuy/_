@@ -4,12 +4,12 @@ MCP server contain
 + Template Prompt (already Context Engineer Prompt, Quality Prompt)
 e.g. Web Search MCP - it contain the web resource, well evaluated searching prompt for LLM, Tools to search on the internet.
 
-MCP's client and server become stateless, specifically the Session ID Protocol become stateless. 
+**28-7-2026 Update:** MCP's client (AI Agent) and server (MCP) become stateless, specifically the **Session ID Protocol become stateless.** 
 **Problem:**
 + **in 2025,** MCP have **sticky sessions and/or shared session stores** -> Request from 1 MCP Server stick to 1 MCP server.
 + **Issue for Load balancer,** so if Server/Instance A is disconnected because of Overload or DDOS, that session ID still get pointing to that Disconnected Server and not Server B.
 	Note: Server A,B,C have the same MCP server.
-+ **Solution:** making the 
++ **Solution:** move MCP's Server Session ID to Application ID (i.e. browser ID) since a application could have multiple MCP behind it.  This solve, if 1 MCP server get disconnected, other MCP server could take over when using the load balancer. 
 ```md
 Agent 
 │ 
@@ -39,6 +39,8 @@ Note: **Tools ~ Function (e.g. API function, regular function) that your AI Mode
 ![[Pasted image 20260904153630.png|721]]
 
 Custom MCP server allow better Control through 1 single endpoint -> better security overall and more efficient to manage. 
-![[Pasted image 20260904153912.png|721]]
+![[Pasted image 20260904153912.png|653]]
 
+### How does MCP work
+![[Pasted image 20260904164935.png|713]]
 
