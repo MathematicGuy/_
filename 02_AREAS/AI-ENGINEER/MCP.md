@@ -9,7 +9,7 @@ MCP's 2026-07-28 spec makes the entire protocol **stateless**, **deleting the in
 ### Why MCP ?
 Note: **Tools ~ Function (e.g. API function, regular function) that your AI Model can call**
 1. MCP basically API/Tool Wrapper with context -> with Context, **Model can flexibly choose which API to called**. ![[Pasted image 20260904153507.png|668]]
-2. **Standardize API/Tool Connector** -> **instead of Custom Integration Code for each AI Model** (e.g. Codex, Claude, etc..) which is hard to build and maintain/swap models/tools , like a USB-C port.![[Pasted image 20260904153050.png|560]]
+2. **Standardize API/Tool Connector** -> **instead of Custom Integration Code for each AI Model** (e.g. Codex, Claude) which is hard to build and maintain/swap models/tools. ![[Pasted image 20260904153050.png|560]]
 3. **Security Reason: Since secret stay inside MCP Server, Secret doesn't get expose to Model**
 
 **MCP Architecture** Note that there are Open Source MCP server

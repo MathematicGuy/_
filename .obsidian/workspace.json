@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "89290f05a332264c",
+        "id": "0ede68f878a01893",
         "type": "tabs",
         "children": [
           {
-            "id": "ee533f536f274582",
+            "id": "b06681c90c8b50c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7a5fb534219c75af",
@@ -191,27 +190,28 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "ee533f536f274582",
+  "active": "b06681c90c8b50c4",
   "lastOpenFiles": [
-    "Pasted image 20260904153912.png",
-    "Pasted image 20260904153630.png",
-    "Pasted image 20260904153507.png",
-    "Pasted image 20260904153050.png",
+    "02_AREAS/AI-ENGINEER/Agentic Engineering Operating Level.md",
+    "02_AREAS/AI-ENGINEER/MCP.md",
+    "images/Pasted image 20260902165033.png",
+    "images",
+    "images/Pasted image 20260904153912.png",
+    "images/Pasted image 20260904153630.png",
+    "images/Pasted image 20260904153507.png",
+    "images/Pasted image 20260904153050.png",
     "02_AREAS/SYSTEM-DESIGN/How To Write Useful Software Architecture Documentation.md",
     "02_AREAS/LANGUAGES/README - Focus on Acquisition than 'How many word' I learn today.md",
     "02_AREAS/LANGUAGES/CHINESE/Chinese Explain in 5 Minutes.md",
     "02_AREAS/HACKATHON/hackathon brief.md",
     "Pasted image 20260903162037.png",
-    "Pasted image 20260903162008.png",
-    "Pasted image 20260903161916.png",
+    "images/Pasted image 20260903162008.png",
+    "images/Pasted image 20260903161916.png",
     "Pasted image 20260903161822.png",
-    "Pasted image 20260903161754.png",
-    "Pasted image 20260903161725.png",
-    "Pasted image 20260903155012.png",
+    "images/Pasted image 20260903161754.png",
     "02_AREAS/HACKATHON/Giải Business Case - Đừng vội nghĩ Solution khi chưa hiểu Problem.md",
     "02_AREAS/HACKATHON",
     "$home.md",
-    "02_AREAS/AI-ENGINEER/MCP.md",
     "02_AREAS/LANGUAGES/CHINESE",
     "02_AREAS/LANGUAGES",
     "02_AREAS/AI-ENGINEER",
