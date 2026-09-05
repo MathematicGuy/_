@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_AREAS/AI-ENGINEER/MCP.md",
+                "file": "01_PROJECTS/Meta-Learning/How we learn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MCP"
+              "title": "How we learn"
             }
           }
         ]
@@ -192,6 +192,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "01_PROJECTS/Meta-Learning/How we learn.md",
+    "01_PROJECTS/Meta-Learning",
+    "02_AREAS/AI-ENGINEER/MCP.md",
     "02_AREAS/AI-ENGINEER/Agentic Cloud.md",
     "02_AREAS/AI-ENGINEER/Agentic Engineering Operating Level.md",
     "images/Pasted image 20260905095856.png",
@@ -199,7 +202,6 @@
     "images/Pasted image 20260905095106.png",
     "images/Pasted image 20260905094900.png",
     "images/Pasted image 20260905094144.png",
-    "02_AREAS/AI-ENGINEER/MCP.md",
     "images/Pasted image 20260904164935.png",
     "images/Pasted image 20260904163339.png",
     "images/Pasted image 20260904163250.png",
@@ -220,7 +222,6 @@
     "01_PROJECTS",
     "02_AREAS",
     "03_RESOURCES",
-    "ARCHIVES",
     "Untitled.canvas"
   ]
 }
