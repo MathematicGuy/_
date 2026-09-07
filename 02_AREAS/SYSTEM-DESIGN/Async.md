@@ -124,7 +124,18 @@ async def connect_and_discover(server_list):
 
 ----
 
-### AsyncExitStack()
+### AsyncExitStack() - Automatically Tracks Jobs and Exit them automatically/dynamically
++ @ When you turn on a server like MCP server, there are always 2 steps, Startup and Shutdown, `AsyncExitStack()` make sure everything that startup get shutdown completely to prevent resource leak.   
++ ! Without this function, you have to manually track all Jobs (ie. MCP server and multiple resources/sub-process that go with it) and shut them down.
+```
+AsyncExitStack() is like a Backpack that collects & cleanups jobs dynamically (whatever come in are marked for clean up later)
+   ┌─────────────────────────────────┐
+   │  [Top]    Client #3 (Filesystem)│
+   │           Client #2 (Fetch)     │
+   │  [Bottom] Client #1 (Research)  │
+   └─────────────────────────────────┘
+```
+
 ```python
 class MCP_ChatBot:
     def __init__(self) -> None:
@@ -144,24 +155,11 @@ class MCP_ChatBot:
         try:
             # unpack key from list e.g. ["run", "research_server.py"]
             params = StdioServerParameters(**server_config)
-
-            """
-            `exit_stack or AsyncExitStack()` like a
-            Backpack collects cleanups jobs dynamically (whatever come in are mark for exit)
-                        AsyncExitStack
-               ┌─────────────────────────────────┐
-               │  [Top]    Client #3 (Filesystem)│
-               │           Client #2 (Fetch)     │
-               │  [Bottom] Client #1 (Research)  │
-               └─────────────────────────────────┘
-
-            Without AsyncExitStack 
-            """
+			
             client = await self.exit_stack.enter_async_context(
                 Client(params)
             )
             self.clients.append(client)
-
             response = await client.list_tools()
 
             print(
@@ -189,18 +187,4 @@ class MCP_ChatBot:
 
         except Exception as exc:
             print(f"Failed to connect to {server_name}: {exc}")
-
-    async def connect_to_servers(self) -> None:
-        # connect to server with "-s"
-        with open("server_config.json", "r", encoding="utf-8") as file:
-            data = json.load(file)
-
-        for server_name, server_config in data.get("mcpServers", {}).items():
-            """
-            Run in Sequence because of `await`
-            """
-            await self.connect_to_server(
-                server_name,
-                server_config,
-            )
 ```
