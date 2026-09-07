@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_PROJECTS/Meta-Learning/How we learn.md",
+                "file": "02_AREAS/SYSTEM-DESIGN/Async.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How we learn"
+              "title": "Async"
             }
           }
         ]
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7a5fb534219c75af",
@@ -192,6 +193,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "02_AREAS/SYSTEM-DESIGN/Async.md",
     "01_PROJECTS/Meta-Learning/How we learn.md",
     "01_PROJECTS/Meta-Learning",
     "02_AREAS/AI-ENGINEER/MCP.md",
