@@ -122,3 +122,85 @@ async def connect_and_discover(server_list):
         register_tools(tools)
 ```
 
+----
+
+### AsyncExitStack()
+```python
+class MCP_ChatBot:
+    def __init__(self) -> None:
+        self.clients: list[Client] = []
+        self.exit_stack = AsyncExitStack()
+        self.anthropic = Anthropic()
+
+        self.available_tools: list[ToolDefinition] = []
+        self.tool_to_client: dict[str, Client] = {}
+
+    async def connect_to_server(
+        self,
+        server_name: str,
+        server_config: dict[str, Any],
+    ) -> None:
+        """Launch and connect to one stdio MCP server."""
+        try:
+            # unpack key from list e.g. ["run", "research_server.py"]
+            params = StdioServerParameters(**server_config)
+
+            """
+            `exit_stack or AsyncExitStack()` like a
+            Backpack collects cleanups jobs dynamically (whatever come in are mark for exit)
+                        AsyncExitStack
+               ┌─────────────────────────────────┐
+               │  [Top]    Client #3 (Filesystem)│
+               │           Client #2 (Fetch)     │
+               │  [Bottom] Client #1 (Research)  │
+               └─────────────────────────────────┘
+
+            Without AsyncExitStack 
+            """
+            client = await self.exit_stack.enter_async_context(
+                Client(params)
+            )
+            self.clients.append(client)
+
+            response = await client.list_tools()
+
+            print(
+                f"\nConnected to {server_name} "
+                f"(protocol {client.protocol_version}) with tools:",
+                [tool.name for tool in response.tools],
+            )
+
+            for tool in response.tools:
+                # Tool names exposed to one model must be unique.
+                if tool.name in self.tool_to_client:
+                    raise ValueError(
+                        f"Duplicate MCP tool name {tool.name!r}. "
+                        "Namespace or rename colliding tools."
+                    )
+
+                self.tool_to_client[tool.name] = client
+                self.available_tools.append(
+                    {
+                        "name": tool.name,
+                        "description": tool.description or "",
+                        "input_schema": tool.input_schema,
+                    }
+                )
+
+        except Exception as exc:
+            print(f"Failed to connect to {server_name}: {exc}")
+
+    async def connect_to_servers(self) -> None:
+        # connect to server with "-s"
+        with open("server_config.json", "r", encoding="utf-8") as file:
+            data = json.load(file)
+
+        for server_name, server_config in data.get("mcpServers", {}).items():
+            """
+            Run in Sequence because of `await`
+            """
+            await self.connect_to_server(
+                server_name,
+                server_config,
+            )
+```
