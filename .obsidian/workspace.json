@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_AREAS/SYSTEM-DESIGN/Async.md",
+                "file": "02_AREAS/AI-ENGINEER/Building Adaptive AI Agent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Async"
+              "title": "Building Adaptive AI Agent"
             }
           }
         ]
@@ -193,12 +193,14 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "images/Pasted image 20260908182809.png",
+    "02_AREAS/AI-ENGINEER/Agentic Engineering Operating Level.md",
+    "02_AREAS/AI-ENGINEER/Building Adaptive AI Agent.md",
+    "02_AREAS/AI-ENGINEER/Agentic Cloud.md",
     "02_AREAS/SYSTEM-DESIGN/Async.md",
     "01_PROJECTS/Meta-Learning/How we learn.md",
     "01_PROJECTS/Meta-Learning",
     "02_AREAS/AI-ENGINEER/MCP.md",
-    "02_AREAS/AI-ENGINEER/Agentic Cloud.md",
-    "02_AREAS/AI-ENGINEER/Agentic Engineering Operating Level.md",
     "images/Pasted image 20260905095856.png",
     "images/Pasted image 20260905095532.png",
     "images/Pasted image 20260905095106.png",
