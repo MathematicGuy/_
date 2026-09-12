@@ -2,5 +2,6 @@
   "promptDelete": false,
   "attachmentFolderPath": "images",
   "newFileLocation": "folder",
-  "newFileFolderPath": "03_RESOURCES"
+  "newFileFolderPath": "03_RESOURCES",
+  "spellcheck": false
 }
