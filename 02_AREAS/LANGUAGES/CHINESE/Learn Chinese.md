@@ -1,0 +1,1 @@
+Time - Efficiency Tradeoff -> Skip Handwriting -> Focus on the TONE. 
