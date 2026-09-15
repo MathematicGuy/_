@@ -57,3 +57,5 @@ Advance vocab allow more detail description for the context, this mean: Lexical 
 
 ![[Pasted image 20260915122934.png]]
 
+Practice Speaking ? ELSA or **Luyennnoi**
+
