@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "21e64bee5a58f123",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "54796e62af65a2ad",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02_AREAS/HACKATHON/hackathon brief.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "hackathon brief"
+              "title": "New tab"
             }
           }
         ]
@@ -83,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7a5fb534219c75af",
@@ -190,8 +187,9 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "54796e62af65a2ad",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "02_AREAS/HACKATHON/hackathon brief.md",
     "02_AREAS/HACKATHON/Giải Business Case - Đừng vội nghĩ Solution khi chưa hiểu Problem.md",
     "03_RESOURCES/CloudThinker D2 - From noise to Root cause.md",
     "02_AREAS/AI-ENGINEER/Agentic Engineering Operating Level.md",
@@ -215,7 +213,6 @@
     "02_AREAS/SYSTEM-DESIGN/How To Write Useful Software Architecture Documentation.md",
     "02_AREAS/LANGUAGES/README - Focus on Acquisition than 'How many word' I learn today.md",
     "02_AREAS/LANGUAGES/CHINESE/Chinese Explain in 5 Minutes.md",
-    "02_AREAS/HACKATHON/hackathon brief.md",
     "02_AREAS/HACKATHON",
     "$home.md",
     "02_AREAS/LANGUAGES/CHINESE",
