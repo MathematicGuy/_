@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7a5fb534219c75af",
@@ -187,28 +186,34 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "c4a58665794442d0",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "images/Pasted image 20260915122934.png",
+    "images/Pasted image 20260915122921.png",
+    "images/Pasted image 20260915122909.png",
+    "images/Pasted image 20260915122859.png",
+    "images/Pasted image 20260915122849.png",
+    "images/Pasted image 20260915122735.png",
+    "images/Pasted image 20260915122550.png",
+    "images/Pasted image 20260915122506.png",
+    "images/Pasted image 20260915122214.png",
+    "images/Pasted image 20260915121544.png",
+    "02_AREAS/LANGUAGES/IELST/How to Study 8 IELTS (Resource and Approaches).md",
+    "02_AREAS/LANGUAGES/IELST",
+    "02_AREAS/LANGUAGES/CHINESE/Learn Chinese.md",
+    "01_PROJECTS/Style-an-Fashion/Styles (Hair Style and Fashion).md",
+    "01_PROJECTS/Style-an-Fashion",
     "02_AREAS/HACKATHON/hackathon brief.md",
     "02_AREAS/HACKATHON/Giải Business Case - Đừng vội nghĩ Solution khi chưa hiểu Problem.md",
     "03_RESOURCES/CloudThinker D2 - From noise to Root cause.md",
     "02_AREAS/AI-ENGINEER/Agentic Engineering Operating Level.md",
     "02_AREAS/AI-ENGINEER/Agentic Cloud.md",
     "02_AREAS/AI-ENGINEER/Building Adaptive AI Agent.md",
-    "images/Pasted image 20260908182809.png",
     "02_AREAS/SYSTEM-DESIGN/Async.md",
     "01_PROJECTS/Meta-Learning/How we learn.md",
     "01_PROJECTS/Meta-Learning",
     "02_AREAS/AI-ENGINEER/MCP.md",
-    "images/Pasted image 20260905095856.png",
-    "images/Pasted image 20260905095532.png",
-    "images/Pasted image 20260905095106.png",
-    "images/Pasted image 20260905094900.png",
-    "images/Pasted image 20260905094144.png",
-    "images/Pasted image 20260904164935.png",
-    "images/Pasted image 20260904163339.png",
-    "images/Pasted image 20260904163250.png",
-    "images/Pasted image 20260904163111.png",
     "images",
     "02_AREAS/SYSTEM-DESIGN/How To Write Useful Software Architecture Documentation.md",
     "02_AREAS/LANGUAGES/README - Focus on Acquisition than 'How many word' I learn today.md",
@@ -220,8 +225,6 @@
     "02_AREAS/AI-ENGINEER",
     "02_AREAS/SYSTEM-DESIGN",
     "01_PROJECTS",
-    "02_AREAS",
-    "03_RESOURCES",
     "Untitled.canvas"
   ]
 }
