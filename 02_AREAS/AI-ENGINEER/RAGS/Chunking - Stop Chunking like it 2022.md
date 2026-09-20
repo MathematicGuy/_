@@ -1,10 +1,17 @@
- there is no right chunk size - there are question that needed large piece of chunk size like Q contain 2 or more piece of information, Whereas simple query only require 1. 
+### Why ?  
+**Small Chunk Fail limitation (pros/cons)** - small chunk isolate key information but suffer from servere context blindness. When a question have multiple constraint 1 single correct information is not enough. 
+
+**Large Chunk Fail limitation (pros/cons)** - large chunk retain broader context, constraint and supporting evidences/facts but suffer from noise and context dilution the larger it get. 
+
+-> **Conclusion:** Choosing fixed chunk size guarantees suboptimal retrieval across varies query. 
+-> **Proposed Solution:**  Chunk size should be dynamic, what if we have multiple database for multiple chunk size from small to large and retrieve the best Chunk from each of them ->    
+
 + ! Large Chunk have more noise but contain more relavant information (supportive infor beside just the main infor) whereas Small Chunk (ie. often chunk with exact keyword) contain accurate answer but lack of relavant context.
-	So why Both ? because Small could contain the Answer but does it contain the information of the previous fixed as well. 
+	So why Both ? because Small could contain the Answer but does it contain the information of the previous fixed as well -> Fail when Question become complex. What if you **need multiple correct answers info instead of just 1 and require** multiple constraint to narrow down the information ? -> this is when short chunk fail and Large Chunk Triump.
+
 + $ Solution -> Use Both by creating 2 database - 1 for Large Chunk and 1 for Small Chunk then use RPR to retrieve, score then re-rank them -> best of both world. 
 + @ RRP at database level instead of just chunk level.
 + ? For Chunk Size of 50 in db1, 100 in db2, 200 tokens in db3, 1000 tokens in db4 -> take the best chunk in each db -> use RRF to get the top-K chunks (so the Top-K chunk could contain chunk of 50 tokens, 200 token and even 1000 tokens at the same time) 
-	-> Having
 ![[Pasted image 20260920161454.png|630]]
 
 
