@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_PROJECTS/IAM/Goals.md",
+                "file": "01_PROJECTS/IAM/+.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Goals"
+              "title": "+"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "Stop Chunking like it 2022"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,10 +205,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "f96d3d1981874a5e",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "01_PROJECTS/IAM/Goals.md",
     "02_AREAS/AI-ENGINEER/Stop Chunking like it 2022.md",
+    "01_PROJECTS/IAM/+.md",
     "01_PROJECTS/IAM/How we learn.md",
     "02_AREAS/AI-ENGINEER/Agentic Cloud.md",
     "03_RESOURCES/Untitled.base",
