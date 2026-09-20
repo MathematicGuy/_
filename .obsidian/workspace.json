@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_AREAS/AI-ENGINEER/RAGS/Chunking - Stop Chunking like it 2022.md",
+                "file": "02_AREAS/AI-ENGINEER/RAGS/Chunking - Stop Chunking like it 2022 - Dynamically Pick the best Chunk Size using Multi-Scale Indexing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chunking - Stop Chunking like it 2022"
+              "title": "Chunking - Stop Chunking like it 2022 - Dynamically Pick the best Chunk Size using Multi-Scale Indexing"
             }
           }
         ],
@@ -208,8 +208,9 @@
   },
   "active": "8a813bc0c166fc7e",
   "lastOpenFiles": [
+    "images/Pasted image 20260920173419.png",
     "01_PROJECTS/IAM/home.md",
-    "02_AREAS/AI-ENGINEER/RAGS/Chunking - Stop Chunking like it 2022.md",
+    "02_AREAS/AI-ENGINEER/RAGS/Chunking - Stop Chunking like it 2022 - Dynamically Pick the best Chunk Size using Multi-Scale Indexing.md",
     "images/Pasted image 20260920162506.png",
     "images/Pasted image 20260920162101.png",
     "images/Pasted image 20260920161903.png",

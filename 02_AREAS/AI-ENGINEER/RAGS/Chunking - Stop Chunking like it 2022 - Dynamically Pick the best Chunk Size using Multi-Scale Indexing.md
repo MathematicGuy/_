@@ -26,11 +26,11 @@
 1. **Step 1 (Parallel Retrieval):** Retrieve the top chunks independently from each index ($DB_{50}$, $DB_{100}$, $DB_{200}$, $DB_{1000}$).
 2. **Step 2 (Document Resolution):** Map every retrieved chunk back to its original **Document ID** (or section ID).
 3. **Step 3 (Document-Level RRF):** The rankings across the $N$ databases vote on the **Document ID**, not the raw chunk:    
-4. $$S(\text{Doc}) = \sum_{w \in \text{databases}} \frac{1}{k + r_w(\text{Doc})}$$
+4. The fomula said: Rerank the chunks out of all database -> `ReRank(ReRank(best chunks from each database))` $$S(\text{Doc}) = \sum_{w \in \text{databases}} \frac{1}{k + r_w(\text{Doc})}$$
 5. **Step 4 (Delivery to LLM):** The system returns the winning **parent document** (or a uniform parent passage) to the LLM.
 -> Each chunk size acts as a multi-resolution lens to detect whether a document is relevant, while passing a clean, complete context block to the generator.
 ![[Pasted image 20260920161454.png|630]]
-
+![[Pasted image 20260920173419.png|871]]
 
 ### Technical Terms
 **Semantic Dilution** - when chunks is too large so key information is blended/diluted with unrelated information -> Chunks/Embeddings/Language Representation **lose clarity**
