@@ -1,10 +1,10 @@
 **Weeks** 
-- Fix Lack of Preparation and Procratination Issue - Aim for Exellency not Perfectioncy (ie. Strive for the Best Results when thing get in your way)
+- Fix **Lack of Preparation and Procratination** Issue - Aim for Exellency not Perfectioncy (ie. Strive for the Best Results when thing get in your way)
 	+ $ Focus on the Positive Side - What I will get instead of what I have to do to get.
 
-+ Fix my Sleep Schedule - 11h30 at best - wake up early to learn language
++ **Fix my Sleep Schedule** - 11h30 at best - wake up early to learn language
 
-+ Establish morning routine I could immediately follow - Easy
++ Establish **morning routine** I could immediately follow - Easy
 	Quick Cold Shower - Exercise - 2' "Manifest/Stare at the wall" - setup/study IELST
 
 + Setup **IELST daily learning system (first thing I do when I wake up)** - Aim for 8.0 IELST Score (Focus on learning Chinese later - Academic English first - Build First Principle Thinking Language Learning Intuition first)

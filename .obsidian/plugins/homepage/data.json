@@ -2,20 +2,20 @@
   "version": 4,
   "homepages": {
     "Main Homepage": {
-      "value": "01_PROJECTS/IAM/+",
+      "value": "01_PROJECTS/IAM/home",
       "kind": "File",
       "openOnStartup": true,
       "openMode": "Replace all open notes",
       "manualOpenMode": "Keep open notes",
       "view": "Default view",
       "revertView": true,
-      "openWhenEmpty": false,
+      "openWhenEmpty": true,
       "refreshDataview": false,
       "autoCreate": false,
       "autoScroll": false,
       "pin": false,
       "commands": [],
-      "alwaysApply": false,
+      "alwaysApply": true,
       "hideReleaseNotes": false
     }
   },

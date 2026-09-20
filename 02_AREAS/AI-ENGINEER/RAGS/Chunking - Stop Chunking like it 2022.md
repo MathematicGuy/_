@@ -1,0 +1,1 @@
+ there is no right chunk size - there are question that needed large piece of chunk size like Q contain 2 or more piece of information, Whereas simple query only require 1. 
