@@ -4,14 +4,31 @@
 **Large Chunk Fail limitation (pros/cons)** - large chunk retain broader context, constraint and supporting evidences/facts but suffer from noise and context dilution the larger it get. 
 
 -> **Conclusion:** Choosing fixed chunk size guarantees suboptimal retrieval across varies query. 
--> **Proposed Solution:**  Chunk size should be dynamic, what if we have multiple database for multiple chunk size from small to large and retrieve the best Chunk from each of them ->    
-
 + ! Large Chunk have more noise but contain more relavant information (supportive infor beside just the main infor) whereas Small Chunk (ie. often chunk with exact keyword) contain accurate answer but lack of relavant context.
-	So why Both ? because Small could contain the Answer but does it contain the information of the previous fixed as well -> Fail when Question become complex. What if you **need multiple correct answers info instead of just 1 and require** multiple constraint to narrow down the information ? -> this is when short chunk fail and Large Chunk Triump.
++ ? So why Both ? because small chunks fail when Question become too complex when you **need multiple info (ie. multiple answer and constraint) to narrow down the rootcause information ?** -> you need both precise context from small chunks and broade context of large chunks.  
 
-+ $ Solution -> Use Both by creating 2 database - 1 for Large Chunk and 1 for Small Chunk then use RPR to retrieve, score then re-rank them -> best of both world. 
-+ @ RRP at database level instead of just chunk level.
-+ ? For Chunk Size of 50 in db1, 100 in db2, 200 tokens in db3, 1000 tokens in db4 -> take the best chunk in each db -> use RRF to get the top-K chunks (so the Top-K chunk could contain chunk of 50 tokens, 200 token and even 1000 tokens at the same time) 
+-> **Proposed Solution:**  Chunk size should be dynamic, what if we queries the best Chunks from multiple chunk-size database -> RRP to rerank every best chunks  -> **Final top-K Chunks contain both small and large chunks, not fixed.**   
++ @ RRP at database level instead of just chunk level -> x2-5 Cost the Chunks you Embed and Store + More parallel queries at retrieval -> Increase Accuracy. 
+```
+[User Query]
+     │
+     ├───> Query DB_50   ──> Top Chunk A_50   ──> Maps to Document ID: Doc_101 (Rank 1)
+     ├───> Query DB_200  ──> Top Chunk B_200  ──> Maps to Document ID: Doc_101 (Rank 2)
+     └───> Query DB_1000 ──> Top Chunk C_1000 ──> Maps to Document ID: Doc_205 (Rank 1)
+                                                       │
+                                                       ▼
+                                         [RRF at the Document Level]
+                                          Doc_101 gets votes from DB_50 & DB_200
+                                                       │
+                                                       ▼
+                                     [Return Top-K Parent Documents to LLM]
+```
+1. **Step 1 (Parallel Retrieval):** Retrieve the top chunks independently from each index ($DB_{50}$, $DB_{100}$, $DB_{200}$, $DB_{1000}$).
+2. **Step 2 (Document Resolution):** Map every retrieved chunk back to its original **Document ID** (or section ID).
+3. **Step 3 (Document-Level RRF):** The rankings across the $N$ databases vote on the **Document ID**, not the raw chunk:    
+4. $$S(\text{Doc}) = \sum_{w \in \text{databases}} \frac{1}{k + r_w(\text{Doc})}$$
+5. **Step 4 (Delivery to LLM):** The system returns the winning **parent document** (or a uniform parent passage) to the LLM.
+-> Each chunk size acts as a multi-resolution lens to detect whether a document is relevant, while passing a clean, complete context block to the generator.
 ![[Pasted image 20260920161454.png|630]]
 
 
