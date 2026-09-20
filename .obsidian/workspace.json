@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_AREAS/AI-ENGINEER/RAG - GraphRAG/GraphRAG.md",
+                "file": "02_AREAS/AI-ENGINEER/RAGS/Graph - Connecting the Dots with Context Graphs Neo4j.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GraphRAG"
+              "title": "Graph - Connecting the Dots with Context Graphs Neo4j"
             }
           }
         ]
@@ -190,20 +190,21 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "c4a58665794442d0",
   "lastOpenFiles": [
-    "02_AREAS/AI-ENGINEER/Agentic AI Agent/Agentic Cloud.md",
-    "02_AREAS/AI-ENGINEER/RAG - GraphRAG/GraphRAG.md",
-    "02_AREAS/AI-ENGINEER/RAG - GraphRAG",
+    "02_AREAS/AI-ENGINEER/RAGS/Retrieval - The unreasonable effectiveness of BM25 for agentic search.md",
+    "02_AREAS/AI-ENGINEER/RAGS/Chunking - Stop Chunking like it 2022.md",
+    "02_AREAS/AI-ENGINEER/RAGS/Graph - Connecting the Dots with Context Graphs Neo4j.md",
+    "02_AREAS/AI-ENGINEER/AGENTIC/Agentic Cloud.md",
+    "02_AREAS/AI-ENGINEER/RAGS",
     "02_AREAS/AI-ENGINEER/DESIGN/Design at the Speed of Adjectives.md",
-    "02_AREAS/AI-ENGINEER/Agentic AI Agent",
-    "02_AREAS/AI-ENGINEER/RAG - GraphRAG/Stop Chunking like it 2022.md",
+    "02_AREAS/AI-ENGINEER/AGENTIC",
     "02_AREAS/AI-ENGINEER/DESIGN",
     "01_PROJECTS/IAM/+.md",
     "01_PROJECTS/IAM/How we learn.md",
     "03_RESOURCES/Untitled.base",
-    "02_AREAS/AI-ENGINEER/Agentic AI Agent/Agentic Engineering Operating Level.md",
-    "02_AREAS/AI-ENGINEER/Agentic AI Agent/Building Adaptive AI Agent.md",
+    "02_AREAS/AI-ENGINEER/AGENTIC/Agentic Engineering Operating Level.md",
+    "02_AREAS/AI-ENGINEER/AGENTIC/Building Adaptive AI Agent.md",
     "02_AREAS/AI-ENGINEER/MCP.md",
     "conflict-files-obsidian-git.md",
     "images/Pasted image 20260915122934.png",
