@@ -26,5 +26,16 @@ Solving the problem -> blocked -> find the key/real problem along the way.
 Everyone can have 20 ideas a day but are u setting urself up for success or not. 
 
 *Capital before the User*
-	be specific - build product for a group of people. 
+	be specific - build product for a group of people. hundred before million.
+
+Funding ? Seed (20-25%)
++ Venture Capital -> run fast, learn fast, burn fast -> Mentor who are Actually investing in You and your Co-founder (go back to step 1 self-reflection and 2 co-founder) - *Mentor for multiple aspect to help you solve startup's specific problem. Aligned with your values as well.* What you gain are:
+	+ High integrity
+	+ Strategic parner
+	+ Have your back
+	+ Value aligned
++ Trad -> have time to fix mistake.
+-> Be Absolutely Clear about your values and what you want to do.
+
+**5. PMF (Product Market Fit)** - dream of every founder - 
 
