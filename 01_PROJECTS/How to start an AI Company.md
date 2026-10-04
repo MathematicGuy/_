@@ -9,3 +9,22 @@ Ghibli director Miyazaki said *"Almost all Japanese animation is produced with h
 Both Ghibli director start with reading literature not anime, story telling is the core. 
 
 Miyazaki story develop when he start drawing story board -> start first, figure out anwers from there. 
+
+**value alignments (3 months - build foundation and trust)** with urself and co-founder
+	who you want to work with (small/big team)
+	what you really want to do
+
+**Inspiration**
++ Talking to people for inspiration
++ You a fast decision make - find a co-founder good at slow decision (*cofounder who compliment you*) 
+
+*Ideas* - doesn't matter as much, but the problem you want to solve
+
+*Wispr actually the 8th product*
+Solving the problem -> blocked -> find the key/real problem along the way.
+
+Everyone can have 20 ideas a day but are u setting urself up for success or not. 
+
+*Capital before the User*
+	be specific - build product for a group of people. 
+
