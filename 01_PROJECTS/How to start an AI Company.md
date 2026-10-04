@@ -37,5 +37,11 @@ Funding ? Seed (20-25%)
 + Trad -> have time to fix mistake.
 -> Be Absolutely Clear about your values and what you want to do.
 
-**5. PMF (Product Market Fit)** - dream of every founder - 
+**5. PMF (Product Market Fit)** - dream of every founder - the reflection
+```python
+for_loop(Idea):
+	if(PDF) -> end 
+```
++ ? The *hardest* thing is *KILLING your IDEAS* bc u got too emotionally attached to it. 
+
 
