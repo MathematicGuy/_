@@ -22,19 +22,18 @@
             }
           },
           {
-            "id": "d1a59ce3f1b2b53b",
+            "id": "01fe47035347139f",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Research-Excalidraw.md"
+                "file": "Excalidraw/deepsearch-flow.excalidraw"
               },
               "icon": "excalidraw-icon",
-              "title": "Research-Excalidraw"
+              "title": "deepsearch-flow"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -205,17 +204,19 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d1a59ce3f1b2b53b",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Excalidraw/deepsearch-flow.excalidraw",
     "01_PROJECTS/AGENTIC SYSTEM DESIGN.md",
+    "01_PROJECTS/How to start an AI Company.md",
+    "01_PROJECTS/SDLC.md",
+    "01_PROJECTS/Startup - Personal Project.md",
+    "03_RESOURCES/Untitled.md",
     "Excalidraw/Research-Excalidraw.md",
     "Excalidraw",
     "images/Pasted image 20261017162922.png",
     "images/Pasted image 20261017162812.png",
     "images/Pasted image 20261017162550.png",
-    "01_PROJECTS/Startup - Personal Project.md",
-    "01_PROJECTS/How to start an AI Company.md",
-    "01_PROJECTS/SDLC.md",
     "01_PROJECTS/AM/home.md",
     "02_AREAS/AI-ENGINEER/RAGS/Chunking - Stop Chunking like it 2022 - Dynamically Pick the best Chunk Size using Multi-Scale Indexing.md",
     "images/Pasted image 20260920173419.png",
@@ -250,8 +251,6 @@
     "01_PROJECTS/AM",
     "images",
     "02_AREAS/SYSTEM-DESIGN/How To Write Useful Software Architecture Documentation.md",
-    "02_AREAS/LANGUAGES/README - Focus on Acquisition than 'How many word' I learn today.md",
-    "02_AREAS/LANGUAGES/CHINESE/Chinese Explain in 5 Minutes.md",
     "02_AREAS/HACKATHON",
     "Untitled.canvas"
   ]
