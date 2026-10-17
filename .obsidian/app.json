@@ -3,5 +3,12 @@
   "attachmentFolderPath": "images",
   "newFileLocation": "folder",
   "newFileFolderPath": "03_RESOURCES",
-  "spellcheck": false
+  "spellcheck": false,
+  "showInlineTitle": true,
+  "readableLineLength": true,
+  "foldIndent": true,
+  "foldHeading": true,
+  "showIndentGuide": true,
+  "rightToLeft": false,
+  "useTab": true
 }
