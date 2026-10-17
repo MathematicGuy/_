@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "AGENTIC SYSTEM DESIGN"
             }
+          },
+          {
+            "id": "d1a59ce3f1b2b53b",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Research-Excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Research-Excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,15 +201,18 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "d1a59ce3f1b2b53b",
   "lastOpenFiles": [
+    "01_PROJECTS/AGENTIC SYSTEM DESIGN.md",
+    "Excalidraw/Research-Excalidraw.md",
+    "Excalidraw",
     "images/Pasted image 20261017162922.png",
     "images/Pasted image 20261017162812.png",
     "images/Pasted image 20261017162550.png",
-    "01_PROJECTS/AGENTIC SYSTEM DESIGN.md",
     "01_PROJECTS/Startup - Personal Project.md",
     "01_PROJECTS/How to start an AI Company.md",
     "01_PROJECTS/SDLC.md",
@@ -222,7 +238,6 @@
     "conflict-files-obsidian-git.md",
     "images/Pasted image 20260915122934.png",
     "images/Pasted image 20260915122921.png",
-    "images/Pasted image 20260915122909.png",
     "02_AREAS/LANGUAGES/IELST/How to Study 8 IELTS (Resource and Approaches).md",
     "02_AREAS/LANGUAGES/IELST",
     "02_AREAS/LANGUAGES/CHINESE/Learn Chinese.md",
@@ -238,7 +253,6 @@
     "02_AREAS/LANGUAGES/README - Focus on Acquisition than 'How many word' I learn today.md",
     "02_AREAS/LANGUAGES/CHINESE/Chinese Explain in 5 Minutes.md",
     "02_AREAS/HACKATHON",
-    "02_AREAS/LANGUAGES/CHINESE",
     "Untitled.canvas"
   ]
 }

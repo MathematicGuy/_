@@ -4,4 +4,3 @@ Thinking UI
 
 Simple Deep Research Framework
 ![[Pasted image 20261017162922.png]]
-
