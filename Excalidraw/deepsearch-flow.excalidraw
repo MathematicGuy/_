@@ -370,12 +370,11 @@
 			"frameId": null,
 			"roundness": null,
 			"seed": 1823296039,
-			"version": 4,
-			"versionNonce": 2123194281,
+			"version": 5,
+			"versionNonce": 1304972711,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1792233162673,
-			"link": null,
+			"updated": 1792234325350,
 			"locked": false,
 			"text": "currentQ = gaps.shift()\n(original Q if queue empty)",
 			"originalText": "currentQ = gaps.shift()\n(original Q if queue empty)",
@@ -388,7 +387,7 @@
 			"lineHeight": 1.25,
 			"index": "a8",
 			"hasTextLink": false,
-			"rawText": ""
+			"rawText": "currentQ = gaps.shift()\n(original Q if queue empty)"
 		},
 		{
 			"id": "rectangle_9",
@@ -5560,10 +5559,10 @@
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
 		"currentItemFrameRole": null,
-		"scrollX": 312.24549302149586,
-		"scrollY": -712.923779763764,
+		"scrollX": 345.4401703731073,
+		"scrollY": 54.21842668696491,
 		"zoom": {
-			"value": 0.728535
+			"value": 0.749944
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,

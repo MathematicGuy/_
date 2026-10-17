@@ -33,7 +33,8 @@
               "title": "deepsearch-flow"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -204,10 +205,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "01fe47035347139f",
   "lastOpenFiles": [
-    "Excalidraw/deepsearch-flow.excalidraw",
     "01_PROJECTS/AGENTIC SYSTEM DESIGN.md",
+    "Excalidraw/deepsearch-flow.excalidraw",
     "01_PROJECTS/How to start an AI Company.md",
     "01_PROJECTS/SDLC.md",
     "01_PROJECTS/Startup - Personal Project.md",
@@ -251,7 +252,6 @@
     "01_PROJECTS/AM",
     "images",
     "02_AREAS/SYSTEM-DESIGN/How To Write Useful Software Architecture Documentation.md",
-    "02_AREAS/HACKATHON",
     "Untitled.canvas"
   ]
 }

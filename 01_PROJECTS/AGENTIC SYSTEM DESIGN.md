@@ -6,7 +6,6 @@ Simple Deep Research Framework
 ![[Pasted image 20261017162922.png]]
 
 
-![[deepsearch-flow.excalidraw]]
 
 ## How Does it Work?
 
