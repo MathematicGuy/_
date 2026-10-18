@@ -6,7 +6,7 @@ Simple Deep Research Framework
 ![[Pasted image 20261017162922.png|700]]
 
 Default LLM Deepseek-v4.1-Flash: https://platform.deepseek.com/top_up
-Fallback: GLM-5.3
+	Fallback: GLM-5.3 
 
 ## How Does it Work?
 
