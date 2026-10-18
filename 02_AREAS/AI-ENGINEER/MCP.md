@@ -44,3 +44,20 @@ Custom MCP server allow better Control through 1 single endpoint -> better secur
 ### How does MCP work
 ![[Pasted image 20260904164935.png|713]]
 
+---
+### How it used
+1 Tools -> atomic tool (*FLEXIBLE*)
+2+ Tools into 1 function -> Composite Tool (*LESS FLEXIBLE but FASTER*)
+Leveraging LLM reasoning Ability:
++ Atomic tool allow more flexibility
++ Composite tool for oneshot workflow (e.g. update row X function = find + add new + delete old) -> Faster bc LLM doesn't need to reason. 
+```js
+[MCP Server Tool Registry]
+├──  read_file (Atomic)
+├──  write_file (Atomic)
+├──  run_test_command (Atomic)
+└──  safely_apply_git_patch (Composite / Deterministic)
+```
+
+
+

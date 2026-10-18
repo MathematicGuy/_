@@ -1,3 +1,5 @@
+source: https://www.youtube.com/watch?v=b4IlyJSIlL0
+
  ![[Pasted image 20261018171754.png|254]]
 
 
@@ -27,11 +29,12 @@ Note: each payment service is a Object forto Payment System.
 
 **Observer pattern:** Event-Driven Approach
 -> 1 Service could use 1 to many service listener flexibly (e.g. function that updated data) but not all of them so we seperate each 1 Service into multiple sub-service that handle independent task. e.g. Order Service -> Order placed and Order Send and Order Delete.
-+ $ For reference **MCP Service** use **Observer Pattern.** Order Placed is like a composite function that combine multiple atomic tools for oneshot workflow task,  
++ $ For reference **MCP Service** use **Observer Pattern.** Order Placed is like a composite function that combine multiple atomic tools for oneshot workflow task.  
 Note: Order Service is a Service, 4 Service below it called a Service Listener. 
 	Instead of 1 Service listener call every event, have each event interact with that service independetly if needed -> Flexible. 
 ![[Pasted image 20261018181626.png]]
 
+Note: 
 
 Instead of Order Service have 4 Events within it, create a indepenednt "service listeners" that call only required events (e.g. order placed call 4 specific function from 4 Class) -> Deep module. 
 ![[Pasted image 20261018173358.png]]
@@ -42,12 +45,12 @@ Similars to these service:
 **Builder Pattern**
 
 
-**Decorator Pattern** - add-on function base on the core logic/function.
+**Decorator Pattern** - add-on function base on the core logic/function -> *apply seperation of concern.*
 e.g. `log_and_time_execution` is a extension of `process_refund` function. Both func have the same input. 
 *Problem:* 1 Function can have multiple requirements -> 1 service responsible for 2 many thing and difficult to understand.  
 ![[Pasted image 20261018175155.png]]
 ![[Pasted image 20261018175223.png]]
-*Solution:* Decoration allow u to *add behavior without changing the core components.*
+*Solution:* Decoration allow u to *add behavior without changing the core components.* 
 ![[Pasted image 20261018175258.png]]
 ![[Pasted image 20261018175028.png]]
 
