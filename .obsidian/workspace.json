@@ -11,30 +11,13 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01_PROJECTS/AGENTIC SYSTEM DESIGN.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "AGENTIC SYSTEM DESIGN"
-            }
-          },
-          {
-            "id": "01fe47035347139f",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/deepsearch-flow.excalidraw"
-              },
-              "icon": "excalidraw-icon",
-              "title": "deepsearch-flow"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -205,7 +188,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "01fe47035347139f",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "01_PROJECTS/AGENTIC SYSTEM DESIGN.md",
     "Excalidraw/deepsearch-flow.excalidraw",
