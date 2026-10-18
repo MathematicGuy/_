@@ -14,10 +14,12 @@
 *Cognitive Leverage & Metacognitive*
 
 
-*System Design:* 
+*[[Backend System Design]]:* 
 + [Backend from First Principle](https://youtube.com/playlist?list=PLui3EUkuMTPgZcV0QhQrOcwMPcBCcd_Q1&si=R0OPgL4dq4ep019y)
 + [Backend simply explain](https://youtu.be/mZ27vUoOEB0?si=3wnWDiN912saiSNc)
 
+*AI Agent System Design*
++ [Building a Deep Research Agent Using MCP-Agent](https://thealliance.ai/blog/building-a-deep-research-agent-using-mcp-agent)
 
 
 
