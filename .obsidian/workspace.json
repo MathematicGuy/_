@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_PROJECTS/AM/everything.md",
+                "file": "01_PROJECTS/AM/ORACLE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "everything"
+              "title": "ORACLE"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "01_PROJECTS/AM/ORACLE.md",
     "03_RESOURCES/Scalable Backend System Design.md",
+    "01_PROJECTS/AM/everything.md",
+    "01_PROJECTS/AM/ORACLE.md",
     "01_PROJECTS/AGENTIC SYSTEM DESIGN.md",
     "01_PROJECTS/AM/Mental Elysium.md",
     "02_AREAS/AI-ENGINEER/MCP.md",
@@ -209,7 +210,6 @@
     "images/Pasted image 20261018175849.png",
     "images/Pasted image 20261018175827.png",
     "01_PROJECTS/AM/ORACLE-EYES.md",
-    "01_PROJECTS/AM/everything.md",
     "$home.md",
     "Excalidraw/deepsearch-flow.excalidraw",
     "01_PROJECTS/How to start an AI Company.md",
