@@ -18,19 +18,21 @@ Note: each payment service is a Object forto Payment System.
 ![[Pasted image 20261018172914.png]]
 
 **Strategy Pattern** use when 1 operation can be used for multiple situation. 
+-> basically, maps service type to Specialize Operation instead of using if/else. **1 Function with multiple input type, each input required a different behavior (e.g. sound(human/dog/cat))**
 + $ 1 operation for each specialize customer. 
 ![[Pasted image 20261018180632.png]]
 ![[Pasted image 20261018180805.png]]
 
 ![[Pasted image 20261018180821.png]]
 
-
-
 **Observer pattern:** Event-Driven Approach
--> need example code
+-> 1 Service could use 1 to many service listener flexibly (e.g. function that updated data) but not all of them so we seperate each 1 Service into multiple sub-service that handle independent task. e.g. Order Service -> Order placed and Order Send and Order Delete.
++ $ For reference **MCP Service** use **Observer Pattern.** Order Placed is like a composite function that combine multiple atomic tools for oneshot workflow task,  
 Note: Order Service is a Service, 4 Service below it called a Service Listener. 
 	Instead of 1 Service listener call every event, have each event interact with that service independetly if needed -> Flexible. 
-![[Pasted image 20261018173257.png]]
+![[Pasted image 20261018181626.png]]
+
+
 Instead of Order Service have 4 Events within it, create a indepenednt "service listeners" that call only required events (e.g. order placed call 4 specific function from 4 Class) -> Deep module. 
 ![[Pasted image 20261018173358.png]]
 ![[Pasted image 20261018173551.png]]
