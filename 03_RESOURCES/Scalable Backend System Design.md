@@ -27,4 +27,15 @@ Instead of Order Service have 4 Events within it, create a indepenednt "service 
 Similars to these service:
 ![[Pasted image 20261018173613.png]]
 
-**The Builder Pattern**
+**Builder Pattern**
+
+
+**Decorator Pattern** - add-on function base on the core logic/function.
+e.g. `log_and_time_execution` is a extension of `process_refund` function. Both func have the same input. 
+*Problem:* 1 Function can have multiple requirements -> 1 service responsible for 2 many thing and difficult to understand.  
+![[Pasted image 20261018175155.png]]
+![[Pasted image 20261018175223.png]]
+*Solution:* Decoration allow u to *add behavior without changing the core components.*
+![[Pasted image 20261018175258.png]]
+![[Pasted image 20261018175028.png]]
+![[Pasted image 20261018173908.png]]
