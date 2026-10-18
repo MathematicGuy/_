@@ -14,7 +14,7 @@
 *Cognitive Leverage & Metacognitive*
 
 
-*[[Backend System Design]]:* 
+*[[Scalable Backend System Design]]:* 
 + [Backend from First Principle](https://youtube.com/playlist?list=PLui3EUkuMTPgZcV0QhQrOcwMPcBCcd_Q1&si=R0OPgL4dq4ep019y)
 + [Backend simply explain](https://youtu.be/mZ27vUoOEB0?si=3wnWDiN912saiSNc)
 

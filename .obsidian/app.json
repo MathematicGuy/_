@@ -10,5 +10,6 @@
   "foldHeading": true,
   "showIndentGuide": true,
   "rightToLeft": false,
-  "useTab": true
+  "useTab": true,
+  "alwaysUpdateLinks": true
 }
