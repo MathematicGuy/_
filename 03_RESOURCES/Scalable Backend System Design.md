@@ -77,4 +77,4 @@ Allow your system to be Scalable (with added features, dev, serv, traffic increa
 ![[Pasted image 20261018180223.png]]
 
 
-
+## 3 API Styles 
