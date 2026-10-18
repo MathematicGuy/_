@@ -162,7 +162,7 @@
   "scriptEngineSettings": {},
   "previousRelease": "2.26.4",
   "showReleaseNotes": true,
-  "excalidrawMasteryPromoCollapsed": false,
+  "excalidrawMasteryPromoCollapsed": true,
   "compareManifestToPluginVersion": true,
   "showNewVersionNotification": true,
   "latexBoilerplate": "\\color{green}e=mc^2",
@@ -523,7 +523,7 @@
   "markdownNodeOneClickEditing": false,
   "canvasImmersiveEmbed": true,
   "startupScriptPath": "",
-  "aiEnabled": true,
+  "aiEnabled": false,
   "aiVerboseLogging": false,
   "aiProviderProfiles": {
     "OpenAI": {
@@ -1036,7 +1036,7 @@
         "rules": [
           {
             "shift": false,
-            "ctrl_cmd": false,
+            "ctrl_cmd": true,
             "alt_opt": false,
             "meta_ctrl": false,
             "result": "active-pane"
