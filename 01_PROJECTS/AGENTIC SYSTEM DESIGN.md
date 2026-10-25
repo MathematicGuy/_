@@ -10,6 +10,7 @@ Fallback: GLM-5.3
 Intent-Router: Mistral, Deepseek-v4.1-flash, Gemini-3.5-flash-lite
 Deep Thinking Model: Hy4, Deepseek-v4.1-flash pro
 OCR: Mistral or run Local Model < 1B 
+[MCP-Context-Compressor](https://github.com/atlassian-labs/mcp-compressor/): agent see the preview first before see MCP's full context. 
 
 ## How Does it Work?
 
