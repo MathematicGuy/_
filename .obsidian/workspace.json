@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "file:/home/heval1st/CODE/ADVANCE_RAG/handoff_advance_rag_spec_plan.md",
+                "file": "01_PROJECTS/AM/ORACLE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "handoff_advance_rag_spec_plan"
+              "title": "ORACLE"
             }
           }
         ]
@@ -194,6 +194,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "file:/home/heval1st/CODE/ADVANCE_RAG/handoff_advance_rag_spec_plan.md",
     "01_PROJECTS/AM/ORACLE.md",
     "file:/home/heval1st/CODE/Zalo-Track-1/lifemate.md",
     "file:/home/heval1st/CODE/Zalo-Track-2/data/public_test/rulebook.md",
@@ -237,7 +238,6 @@
     "02_AREAS/AI-ENGINEER/AGENTIC/Agentic Engineering Operating Level.md",
     "02_AREAS/AI-ENGINEER/AGENTIC/Building Adaptive AI Agent.md",
     "conflict-files-obsidian-git.md",
-    "02_AREAS/LANGUAGES/IELST/How to Study 8 IELTS (Resource and Approaches).md",
     "02_AREAS/LANGUAGES/IELST",
     "01_PROJECTS/Style-an-Fashion",
     "Untitled.canvas"
